@@ -9,7 +9,7 @@
 
 | Nội dung | Đường dẫn |
 |---|---|
-| Mã nguồn Android Native Java | [BIT240125_FoodManager](BIT240125_FoodManager) |
+| Mã nguồn Android Native Java | [BIT240125_FoodManager](https://github.com/Khiemnh158/BaiKiemTraGiuaKy/tree/main/BIT240125_FoodManager) |
 | Video 1 - Demo ứng dụng, offline và tự đồng bộ | [BIT240125_Video1_Demo.mp4](BIT240125_Video1_Demo.mp4) |
 | Video 2 - Thuyết minh mã nguồn và chức năng | [BIT240125_Video2_ThuyetMinh.mp4](BIT240125_Video2_ThuyetMinh.mp4) |
 | APK để cài chạy thử | [BIT240125_FoodManager.apk](BIT240125_FoodManager.apk) |
@@ -38,7 +38,7 @@ Hướng dẫn cấu trúc, model, schema, validation và đồng bộ: [README 
 
 ## Kiểm chứng và phạm vi
 
-Đã chạy 67 kiểm tra dữ liệu và 11 kiểm tra giao diện. Các tệp trong [evidence](BIT240125_FoodManager/evidence) lưu log cùng JSON trước/sau đồng bộ: bản ghi tạo/sửa offline lên MockAPI với đúng một UUID và giá 40.000.
+Đã chạy 67 kiểm tra dữ liệu và 11 kiểm tra giao diện. Các tệp trong [evidence](https://github.com/Khiemnh158/BaiKiemTraGiuaKy/tree/main/BIT240125_FoodManager/evidence) lưu log cùng JSON trước/sau đồng bộ: bản ghi tạo/sửa offline lên MockAPI với đúng một UUID và giá 40.000.
 
 Luồng đã kiểm chứng là tạo/sửa từ ứng dụng khi offline rồi đẩy lên API. Chưa triển khai đồng bộ xóa thực hiện trực tiếp trên website MockAPI về local hoặc xử lý xung đột nhiều thiết bị. Worker đồng bộ hoạt động khi ứng dụng đang mở. Ở đoạn bật mạng trong Video 1, ứng dụng được mở lại trong kịch bản kiểm thử; không có thao tác bấm nút đồng bộ.
 
