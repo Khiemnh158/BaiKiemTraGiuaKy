@@ -1,0 +1,10 @@
+PASS 1: Automatic synchronization completed
+PASS 2: Offline record remains local after synchronization
+PASS 3: Remote price equals offline edit
+PASS 4: Exactly one remote record with stable UUID
+PASS 1 Automatic synchronization completed
+PASS 2 Offline record remains local after synchronization
+PASS 3 Remote price equals offline edit
+PASS 4 Exactly one remote record with stable UUID
+
+PASS: 4 checks; mode=syncOnline

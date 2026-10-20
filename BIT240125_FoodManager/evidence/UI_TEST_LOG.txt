@@ -1,0 +1,24 @@
+PASS 1: Default English screen
+PASS 2: Vietnamese language switch
+PASS 3: Language retained in details
+PASS 4: Language retained in edit
+PASS 5: Switch language in form
+PASS 6: Duplicate validation is visible
+PASS 7: Empty name validation visible
+PASS 8: Price validation visible
+PASS 9: Time validation visible
+PASS 10: Invalid filter validation visible
+PASS 11: Missing ID handled
+PASS 1 Default English screen
+PASS 2 Vietnamese language switch
+PASS 3 Language retained in details
+PASS 4 Language retained in edit
+PASS 5 Switch language in form
+PASS 6 Duplicate validation is visible
+PASS 7 Empty name validation visible
+PASS 8 Price validation visible
+PASS 9 Time validation visible
+PASS 10 Invalid filter validation visible
+PASS 11 Missing ID handled
+
+PASS: 11 checks; mode=ui

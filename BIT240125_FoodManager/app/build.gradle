@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'vn.edu.bit240125.foodmanager'
+ compileSdk 34
+ defaultConfig {
+  applicationId 'vn.edu.bit240125.foodmanager'
+  minSdk 26
+  targetSdk 34
+  versionCode 1
+  versionName '1.0'
+  testInstrumentationRunner 'vn.edu.bit240125.foodmanager.FoodTestRunner'
+ }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}

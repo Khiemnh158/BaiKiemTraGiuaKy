@@ -1,0 +1,124 @@
+[
+  {
+    "BIT240125_Id": "dish-1",
+    "BIT240125_Name": "Cơm rau củ",
+    "BIT240125_Description": "Cơm nóng ăn kèm rau củ tươi và sốt nhẹ.",
+    "BIT240125_Price": 65000,
+    "BIT240125_PreparationTime": 20,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-main",
+    "BIT240125_DishImage": [
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": false
+      },
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": true
+      }
+    ],
+    "id": "1"
+  },
+  {
+    "BIT240125_Id": "dish-2",
+    "BIT240125_Name": "Mì Ý rau xanh",
+    "BIT240125_Description": "Mì Ý với cà chua và rau thơm.",
+    "BIT240125_Price": 55000,
+    "BIT240125_PreparationTime": 15,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-main",
+    "BIT240125_DishImage": [
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": true
+      }
+    ],
+    "id": "2"
+  },
+  {
+    "BIT240125_Id": "dish-3",
+    "BIT240125_Name": "Salad rau củ",
+    "BIT240125_Description": "Rau tươi trộn sốt chanh nhẹ.",
+    "BIT240125_Price": 35000,
+    "BIT240125_PreparationTime": 10,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-light",
+    "BIT240125_DishImage": [
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": true
+      }
+    ],
+    "id": "3"
+  },
+  {
+    "BIT240125_Id": "dish-4",
+    "BIT240125_Name": "Súp bí đỏ",
+    "BIT240125_Description": "Súp bí đỏ béo nhẹ, dùng nóng.",
+    "BIT240125_Price": 30000,
+    "BIT240125_PreparationTime": 18,
+    "BIT240125_IsAvailable": false,
+    "BIT240125_DishCategoryId": "cat-light",
+    "BIT240125_DishImage": [
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": true
+      }
+    ],
+    "id": "4"
+  },
+  {
+    "BIT240125_Id": "dish-5",
+    "BIT240125_Name": "Trà trái cây",
+    "BIT240125_Description": "Trà hoa quả dùng lạnh với lát chanh.",
+    "BIT240125_Price": 25000,
+    "BIT240125_PreparationTime": 5,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-drink",
+    "BIT240125_DishImage": [
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": true
+      }
+    ],
+    "id": "5"
+  },
+  {
+    "BIT240125_Id": "dish-6",
+    "BIT240125_Name": "Nước cam tươi",
+    "BIT240125_Description": "Cam tươi ép nguyên chất.",
+    "BIT240125_Price": 30000,
+    "BIT240125_PreparationTime": 8,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-drink",
+    "BIT240125_DishImage": [
+      {
+        "BIT240125_ImageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=800&auto=format&fit=crop&q=80",
+        "BIT240125_IsThumbnail": true
+      }
+    ],
+    "id": "6"
+  },
+  {
+    "BIT240125_Id": "10fdd5ee-6615-4b54-b825-35729d184562",
+    "BIT240125_Name": "Mon offline BIT240125",
+    "BIT240125_Description": "Du lieu tao khi khong co Internet.",
+    "BIT240125_Price": 40000,
+    "BIT240125_PreparationTime": 15,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-main",
+    "BIT240125_DishImage": [],
+    "id": "7"
+  },
+  {
+    "BIT240125_Id": "c1f8dbc0-39c7-48c8-9b95-4b11bd52cea7",
+    "BIT240125_Name": "Mon offline BIT240125 v2",
+    "BIT240125_Description": "Du lieu tao khi khong co Internet.",
+    "BIT240125_Price": 40000,
+    "BIT240125_PreparationTime": 15,
+    "BIT240125_IsAvailable": true,
+    "BIT240125_DishCategoryId": "cat-main",
+    "BIT240125_DishImage": [],
+    "id": "8"
+  }
+]

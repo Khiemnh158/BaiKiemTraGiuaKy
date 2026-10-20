@@ -1,0 +1,136 @@
+PASS 1: Three categories seeded
+PASS 2: Six dishes seeded
+PASS 3: Foreign keys ON
+PASS 4: Table prefix BIT240125_DishCategory
+PASS 5: Column prefix BIT240125_Id
+PASS 6: Column prefix BIT240125_Name
+PASS 7: Column prefix BIT240125_Description
+PASS 8: Table prefix BIT240125_Dish
+PASS 9: Column prefix BIT240125_Id
+PASS 10: Column prefix BIT240125_Name
+PASS 11: Column prefix BIT240125_NameKey
+PASS 12: Column prefix BIT240125_Price
+PASS 13: Column prefix BIT240125_PreparationTime
+PASS 14: Column prefix BIT240125_IsAvailable
+PASS 15: Column prefix BIT240125_Description
+PASS 16: Column prefix BIT240125_DishCategoryId
+PASS 17: Table prefix BIT240125_DishImage
+PASS 18: Column prefix BIT240125_Id
+PASS 19: Column prefix BIT240125_DishId
+PASS 20: Column prefix BIT240125_ImageUrl
+PASS 21: Column prefix BIT240125_IsThumbnail
+PASS 22: Table prefix BIT240125_Outbox
+PASS 23: Column prefix BIT240125_Entity
+PASS 24: Column prefix BIT240125_EntityId
+PASS 25: Column prefix BIT240125_Operation
+PASS 26: Column prefix BIT240125_Revision
+PASS 27: Create UUID
+PASS 28: Read saved dish
+PASS 29: Disk persistence through new connection
+PASS 30: Edit saved
+PASS 31: name_required
+PASS 32: price_error
+PASS 33: time_error
+PASS 34: category_error
+PASS 35: duplicate
+PASS 36: Same name in another category allowed
+PASS 37: range_error
+PASS 38: range_error
+PASS 39: Partial case-insensitive name search
+PASS 40: SQL wildcard treated as literal
+PASS 41: Combined search category availability price
+PASS 42: Unavailable remains in management
+PASS 43: Unavailable excluded by available filter
+PASS 44: Price ascending
+PASS 45: Price descending
+PASS 46: Preparation time ascending
+PASS 47: Quick boundary 15
+PASS 48: Regular boundary 16
+PASS 49: thumbnail_error
+PASS 50: Multiple images saved
+PASS 51: Cover selected
+PASS 52: url_error
+PASS 53: duplicate_image
+PASS 54: Empty gallery saved
+PASS 55: category_used
+PASS 56: Missing ID returns null
+PASS 57: not_found
+PASS 58: Category create edit
+PASS 59: Unused category deletion
+PASS 60: MockAPI payload uses prefixed fields
+PASS 61: Outbox coalesces repeated edits
+PASS 62: New revision survives stale sync acknowledgement
+PASS 63: Pending local edit wins over remote
+PASS 64: Delete persisted
+PASS 65: Seed data restored after integration tests
+PASS 66: English default text
+PASS 67: Vietnamese validation translated
+PASS 1 Three categories seeded
+PASS 2 Six dishes seeded
+PASS 3 Foreign keys ON
+PASS 4 Table prefix BIT240125_DishCategory
+PASS 5 Column prefix BIT240125_Id
+PASS 6 Column prefix BIT240125_Name
+PASS 7 Column prefix BIT240125_Description
+PASS 8 Table prefix BIT240125_Dish
+PASS 9 Column prefix BIT240125_Id
+PASS 10 Column prefix BIT240125_Name
+PASS 11 Column prefix BIT240125_NameKey
+PASS 12 Column prefix BIT240125_Price
+PASS 13 Column prefix BIT240125_PreparationTime
+PASS 14 Column prefix BIT240125_IsAvailable
+PASS 15 Column prefix BIT240125_Description
+PASS 16 Column prefix BIT240125_DishCategoryId
+PASS 17 Table prefix BIT240125_DishImage
+PASS 18 Column prefix BIT240125_Id
+PASS 19 Column prefix BIT240125_DishId
+PASS 20 Column prefix BIT240125_ImageUrl
+PASS 21 Column prefix BIT240125_IsThumbnail
+PASS 22 Table prefix BIT240125_Outbox
+PASS 23 Column prefix BIT240125_Entity
+PASS 24 Column prefix BIT240125_EntityId
+PASS 25 Column prefix BIT240125_Operation
+PASS 26 Column prefix BIT240125_Revision
+PASS 27 Create UUID
+PASS 28 Read saved dish
+PASS 29 Disk persistence through new connection
+PASS 30 Edit saved
+PASS 31 name_required
+PASS 32 price_error
+PASS 33 time_error
+PASS 34 category_error
+PASS 35 duplicate
+PASS 36 Same name in another category allowed
+PASS 37 range_error
+PASS 38 range_error
+PASS 39 Partial case-insensitive name search
+PASS 40 SQL wildcard treated as literal
+PASS 41 Combined search category availability price
+PASS 42 Unavailable remains in management
+PASS 43 Unavailable excluded by available filter
+PASS 44 Price ascending
+PASS 45 Price descending
+PASS 46 Preparation time ascending
+PASS 47 Quick boundary 15
+PASS 48 Regular boundary 16
+PASS 49 thumbnail_error
+PASS 50 Multiple images saved
+PASS 51 Cover selected
+PASS 52 url_error
+PASS 53 duplicate_image
+PASS 54 Empty gallery saved
+PASS 55 category_used
+PASS 56 Missing ID returns null
+PASS 57 not_found
+PASS 58 Category create edit
+PASS 59 Unused category deletion
+PASS 60 MockAPI payload uses prefixed fields
+PASS 61 Outbox coalesces repeated edits
+PASS 62 New revision survives stale sync acknowledgement
+PASS 63 Pending local edit wins over remote
+PASS 64 Delete persisted
+PASS 65 Seed data restored after integration tests
+PASS 66 English default text
+PASS 67 Vietnamese validation translated
+
+PASS: 67 checks; mode=test

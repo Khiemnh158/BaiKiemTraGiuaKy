@@ -1,0 +1,4 @@
+{
+  "BIT240125_DishCategory": {"BIT240125_Id":"string","BIT240125_Name":"string","BIT240125_Description":"string"},
+  "BIT240125_Dish": {"BIT240125_Id":"string","BIT240125_Name":"string","BIT240125_Description":"string","BIT240125_Price":"number","BIT240125_PreparationTime":"number","BIT240125_IsAvailable":"boolean","BIT240125_DishCategoryId":"string","BIT240125_DishImage":[{"BIT240125_ImageUrl":"HTTPS string","BIT240125_IsThumbnail":"boolean"}]}
+}

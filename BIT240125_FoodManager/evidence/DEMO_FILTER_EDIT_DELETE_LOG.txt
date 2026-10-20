@@ -1,0 +1,6 @@
+PASS 1: Filters retained after edit
+PASS 2: UI delete saved
+PASS 1 Filters retained after edit
+PASS 2 UI delete saved
+
+PASS: 2 checks; mode=demo2
